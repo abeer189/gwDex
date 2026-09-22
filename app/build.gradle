@@ -1,9 +1,3 @@
-namespace 'your.package.name'
-android {
-    namespace 'ACTUAL.PACKAGE.NAME'
-    compileSdk 35
-
-    defaultConfig {
-        // your existing settings
-    }
+plugins {
+    id 'com.android.application'
 }
