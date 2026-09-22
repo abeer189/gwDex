@@ -1,3 +1,11 @@
 plugins {
     id 'com.android.application'
 }
+android {
+    namespace 'your.package.name'
+    compileSdk 35
+
+    defaultConfig {
+        // keep your existing settings
+    }
+}
